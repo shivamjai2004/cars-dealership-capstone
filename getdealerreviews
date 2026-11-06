@@ -1,0 +1,3 @@
+curl -X GET http://localhost:8000/djangoapp/get_dealer_reviews/1
+Output:
+[{"id": 1, "name": "Aiden", "dealership": 1, "review": "Great car selection and helpful staff!", "purchase": true, "sentiment": "positive"}]

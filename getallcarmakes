@@ -1,0 +1,3 @@
+curl -X GET http://localhost:8000/djangoapp/get_cars
+Output:
+[{"CarMake": "Toyota", "CarModel": "Camry", "Year": 2023}, {"CarMake": "Ford", "CarModel": "Mustang", "Year": 2024}]

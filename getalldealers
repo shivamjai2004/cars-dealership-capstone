@@ -1,0 +1,3 @@
+curl -X GET http://localhost:8000/djangoapp/get_dealers
+Output:
+[{"id": 1, "city": "Austin", "state": "Texas", "address": "123 Main St", "zip": "78701", "lat": 30.2672, "long": -97.7431, "short_name": "Austin Motors", "full_name": "Austin Motors Inc"}]
